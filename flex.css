@@ -1,0 +1,13 @@
+#container{
+      width: 80%;
+      height:600px;
+      background-color: aliceblue;
+      margin:10px;
+      border: 2px solid black ;
+}
+
+#container div{
+      width: 100px;
+      height: 100px;
+      text-align:center;
+}
