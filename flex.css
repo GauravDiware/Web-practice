@@ -1,13 +1,26 @@
 #container{
       width: 80%;
       height:600px;
-      background-color: aliceblue;
+      background-color: rgb(10, 126, 227);
       margin:10px;
-      border: 2px solid black ;
+      margin-left: 100px;
+      display: flex;
+      flex-direction:row;
+      border: 2px solid black;
+      justify-content:space-around;
+      flex-wrap:wrap;
+      align-content:center;
+      
+      
+}
+#container div{
+      width: 200px;
+      height: 200px;
+      text-align:center;
+      display: inline-block;
 }
 
-#container div{
-      width: 100px;
-      height: 100px;
-      text-align:center;
+#org{
+      align-self:flex-end;
+
 }
