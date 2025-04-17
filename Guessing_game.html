@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Game</title>
+</head>
+<body>
+      <h1>Guessing  Game</h1>
+      <div class ="sec_1">
+            <h3>Guess the no between 1 to 10</h3>
+      </div>
+      <script src = "app.js"></script>
+      <script>
+            let User_Input = prompt("Enter no here...");
+            let value = (Math.floor(Math.random()*10)+1);
+            while(true){
+
+                  if(User_Input == "quit"){
+                        console.log("You Quit....");
+                        break;
+                  }
+                  if(User_Input == value){
+                        
+                  console.log(` Congratulation's You win ${User_Input} == ${value}`);
+                  break;
+            }else{
+                  
+                  User_Input = prompt("Wrong Guess was wrong please try again");
+            }
+            
+            }
+      </script>
+      
+</body>
+</html>
